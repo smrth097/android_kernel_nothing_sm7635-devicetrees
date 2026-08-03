@@ -1,8 +1,11 @@
 /dts-v1/;
 /plugin/;
 
+#include <dt-bindings/clock/qcom,camcc-volcano.h>
 #include "../qcom/volcano-qrd.dtsi"
 #include "frogger.dtsi"
+#include "../qcom/camera/volcano-camera.dtsi"
+#include "frogger-camera-sensor.dtsi"
 
 / {
 	model = "Nothing Phone (4a)";
