@@ -1,6 +1,7 @@
 VOLCANO_BASE_DTB += ../qcom/volcano.dtb
 
 NOTH_VOLCANO_BOARDS += \
+	frogger-overlay.dtbo
 
 dtb-y += $(NOTH_VOLCANO_BOARDS) $(VOLCANO_BASE_DTB)
 
