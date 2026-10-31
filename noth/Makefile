@@ -1,9 +1,12 @@
 VOLCANO_BASE_DTB += ../qcom/volcano.dtb
 
+ifeq ($(CONFIG_NOTHING_IS_FROGGER),y)
 NOTH_VOLCANO_BOARDS += \
+	frogger-base-overlay.dtbo
+else
 	asteroids-base-overlay.dtbo \
-	asteroids-pro-overlay.dtbo \
-	frogger-overlay.dtbo
+	asteroids-pro-overlay.dtbo
+endif
 
 dtb-y += $(NOTH_VOLCANO_BOARDS) $(VOLCANO_BASE_DTB)
 
