@@ -4,6 +4,7 @@ ifeq ($(CONFIG_NOTHING_IS_FROGGER),y)
 NOTH_VOLCANO_BOARDS += \
 	frogger-base-overlay.dtbo
 else
+NOTH_VOLCANO_BOARDS += \
 	asteroids-base-overlay.dtbo \
 	asteroids-pro-overlay.dtbo
 endif
