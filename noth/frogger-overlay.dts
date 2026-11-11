@@ -2,8 +2,7 @@
 /plugin/;
 
 #include "../qcom/volcano-qrd.dtsi"
-#include "frogger-common.dtsi"
-#include "frogger-camera-sensor.dtsi"
+#include "frogger.dtsi"
 
 / {
 	model = "Nothing Phone (4a)";
